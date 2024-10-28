@@ -1,0 +1,14 @@
+MONGOOSE is a npm package used to connect node js with mongodb
+mongodb npm package we used earlier has some limitations
+These limitations are fulfilled by MONGOOSE
+It provides some advanced features, like models and schemas.
+We can cotrol the no of fields in MONGOOSE.
+
+MONGOOSE contains two parts schema and model.
+
+Schemas used to validate the fields in database.
+like defining the no of fields, if we have define fields as name, salary in schema
+we can't add new filed while inserting data.
+We can also use type validations.
+
+Model connects node js with mongodb.

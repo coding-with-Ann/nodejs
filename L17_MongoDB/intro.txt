@@ -1,0 +1,17 @@
+MongoDB is a nosql(not only sql) database.
+Data is stored in a collection(collection is like table in sql)
+collections doesn't have rows and columns
+Data is stored in the form of object.
+
+show dbs                              ---- shows all the databases
+use databaseName                      ---- to create a database, to switch if the database already exists.
+db.createCollection('collectionName') ---- to create a new collection
+show collections                      ---- shows all collections
+db.collectionName.find()              ---- prints the data present in collection
+
+db.collectionName.drop()              ---- to drop a collection
+db.dropDatabase()                     ---- drops the current database
+
+db.colName.insertOne({name: "", price: })                    ---- to insert data into the collection
+db.colName.updateOne({name:'redmi'},{$set:{brand: 'iphone'}})  ---- to update brand to iphone
+db.colName.deleteOne({brand:"apple"})                        ---- to delete one object with brand apple
